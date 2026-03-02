@@ -1,0 +1,28 @@
+seed: 42
+start_date: "2023-01-01"
+end_date: "2024-12-31"
+entities:
+  - "Ukraine"
+  - "OpenAI"
+  - "Federal_Reserve"
+countries:
+  - "Ukraine"
+  - "United States"
+fred_series:
+  - "VIXCLS"
+  - "DFF"
+  - "CPIAUCSL"
+  - "UNRATE"
+  - "DGS10"
+shock_quantile: 0.99
+rolling_window: 30
+text_model_name: "microsoft/deberta-v3-large"
+hidden_size: 128
+graph_hidden_size: 64
+tft_hidden_size: 96
+batch_size: 16
+learning_rate: 0.0002
+epochs: 3
+device: "cuda"
+data_dir: "data"
+artifacts_dir: "artifacts/base"

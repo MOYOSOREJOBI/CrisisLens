@@ -1,0 +1,13 @@
+torch
+transformers>=4.48.0
+scikit-learn
+pandas
+numpy
+pyarrow
+pyyaml
+requests
+tqdm
+networkx
+torch_geometric
+pytest
+huggingface_hub

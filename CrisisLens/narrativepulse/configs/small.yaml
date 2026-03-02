@@ -1,0 +1,24 @@
+seed: 42
+start_date: "2024-01-01"
+end_date: "2024-03-31"
+entities:
+  - "Ukraine"
+  - "OpenAI"
+countries:
+  - "Ukraine"
+  - "United States"
+fred_series:
+  - "VIXCLS"
+  - "DFF"
+shock_quantile: 0.99
+rolling_window: 14
+text_model_name: "distilroberta-base"
+hidden_size: 64
+graph_hidden_size: 32
+tft_hidden_size: 48
+batch_size: 8
+learning_rate: 0.0005
+epochs: 1
+device: "cpu"
+data_dir: "data"
+artifacts_dir: "artifacts/small"
